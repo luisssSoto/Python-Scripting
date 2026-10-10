@@ -1,79 +1,137 @@
-======================================================================
-  PYTHON SCRIPT
-======================================================================
+# 🐍 Python Scripting Projects
 
-Welcome to this rep which there are several scripting projects using 
-python
+A collection of Python scripts and small applications built to practice programming, automate tasks, and explore different Python libraries and technologies.
 
-----------------------------------------------------------------------
-  FEATURES
-----------------------------------------------------------------------
-* Project 1: Morse Code
+## 🚀 Projects
 
-----------------------------------------------------------------------
-  PREREQUISITES & REQUIREMENTS
-----------------------------------------------------------------------
-* Python 3.8 or higher
-* Optional: Check all the requirements.txt files that are inside each
-project
+| Project | Description |
+|---|---|
+| [Morse Code](./) | A Python project related to encoding or decoding Morse code. |
 
-----------------------------------------------------------------------
-  INSTALLATION & SETUP
-----------------------------------------------------------------------
-1. Clone the repository:
-   git clone https://github.com/luisssSoto/Python-Scripting.git
+*More projects will be added as the repository grows.*
 
-2. (Recommended) Create and activate a virtual environment:
-   Follow the steps on the activate env.txt file that is in the root 
+## 🛠️ Technologies & Requirements
 
-----------------------------------------------------------------------
-  CONFIGURATION
-----------------------------------------------------------------------
-If the script requires configuration or environment variables:
-1. Copy the sample environment file:
-   cp .env.example .env
-2. Open the `.env` file and fill in your API keys or custom parameters:
-   API_KEY=your_actual_api_key_here
+- **Language:** Python 3.8 or higher
+- **Dependencies:** Check the `requirements.txt` file inside each project directory.
+- **Environment:** A virtual environment is recommended for managing dependencies.
 
-----------------------------------------------------------------------
-  USAGE
-----------------------------------------------------------------------
-Run the main script from your terminal:
+## 📦 Installation & Setup
 
-   python main.py [arguments]
+### 1. Clone the repository
 
-Example command:
-   python main.py --input data/sample.csv --output results/
+```bash
+git clone https://github.com/luisssSoto/Python-Scripting.git
+cd Python-Scripting
+```
 
-For a full list of available command-line arguments and options, run:
-   python main.py --help
+### 2. Create a virtual environment
 
-----------------------------------------------------------------------
-  PROJECT STRUCTURE
-----------------------------------------------------------------------
-Python Script/
-│
+**Windows (PowerShell):**
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+
+**macOS / Linux:**
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+If you encounter activation issues, refer to the `activate env.txt` file in the repository root.
+
+### 3. Install project dependencies
+
+Navigate to the desired project directory and install its requirements, if provided:
+
+```bash
+pip install -r requirements.txt
+```
+
+> **Note:** Each project may have its own dependencies. Follow the instructions in its directory.
+
+## ⚙️ Configuration
+
+Some projects may require environment variables, API keys, or other configuration settings.
+
+If a project provides a `.env.example` file, copy it to `.env`:
+
+```bash
+cp .env.example .env
+```
+
+Then update the values in `.env` with your own configuration:
+
+```env
+API_KEY=your_actual_api_key_here
+```
+
+**Security:** Never commit real API keys, passwords, or other secrets to GitHub. Keep `.env` files out of version control using `.gitignore`.
+
+## ▶️ Usage
+
+Each project may have its own entry point and execution instructions.
+
+1. Navigate to the project directory.
+2. Activate the appropriate virtual environment.
+3. Install the required dependencies.
+4. Run the project's main script.
+
+For example:
+
+```bash
+python main.py
+```
+
+If a script supports command-line arguments, you can usually view its options with:
+
+```bash
+python main.py --help
+```
+
+Refer to the individual project's documentation for specific commands, inputs, and examples.
+
+## 📁 Repository Structure
+
+```text
+Python-Scripting/
 ├── project1/
-│   ├── data/                 # Input and output data files
-│   ├── venv/                 # Python virtual environment (ignored by git)
-│   ├── .env                  # Local configuration/environment variables
-│   ├── main.py               # Main entry point script
+│   ├── data/                 # Project data files
+│   ├── main.py               # Main script
 │   └── requirements.txt      # Project dependencies
 │
 ├── project2/
-│   ├── src/                  # Source code files
+│   ├── src/                  # Source code
 │   └── main.py               # Main script
 │
-├── .gitignore                # Git ignore file
-└── README.txt                # This file
+├── .gitignore                # Files excluded from Git
+├── README.md                 # Repository documentation
+└── activate env.txt           # Virtual environment instructions
+```
 
-----------------------------------------------------------------------
-  CONTRIBUTING
-----------------------------------------------------------------------
-Contributions, bug reports, and feature requests are welcome! 
-Feel free to open an issue or submit a pull request.
+*The structure above is an example. Actual folders and files may vary between projects.*
 
-----------------------------------------------------------------------
-  LICENSE
-----------------------------------------------------------------------
-This project is open-source and available under the [MIT License](LICENSE).
+## 🤝 Contributing
+
+Suggestions, bug reports, and contributions are welcome!
+
+- Open an issue to report a bug or suggest an improvement.
+- Submit a pull request to contribute code or documentation.
+- Keep contributions focused, readable, and consistent with Python best practices.
+
+## 📄 License
+
+This repository is available under the [MIT License](./LICENSE), provided that a `LICENSE` file containing the license terms is included.
+
+## 👨‍💻 Author
+
+**Luis Alejandro Soto Serafín**
+
+- GitHub: [@luisssSoto](https://github.com/luisssSoto)
+
+---
+
+⭐ If you find these projects useful, feel free to explore the repository and follow my progress as I continue learning and building with Python.
