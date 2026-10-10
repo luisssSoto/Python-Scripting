@@ -8,7 +8,7 @@ python
 ----------------------------------------------------------------------
   FEATURES
 ----------------------------------------------------------------------
-* Project 1: e.g., Morse Code
+* Project 1: Morse Code
 
 ----------------------------------------------------------------------
   PREREQUISITES & REQUIREMENTS
@@ -22,7 +22,6 @@ project
 ----------------------------------------------------------------------
 1. Clone the repository:
    git clone https://github.com/luisssSoto/Python-Scripting.git
-   cd [project]
 
 2. (Recommended) Create and activate a virtual environment:
    Follow the steps on the activate env.txt file that is in the root 
